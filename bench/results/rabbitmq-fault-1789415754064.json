@@ -1,0 +1,6 @@
+{
+  "voucher_id": 13,
+  "accepted": true,
+  "pending_during_outage": 1,
+  "persisted_after_recovery": true
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": "1789415631203",
+  "voucher_id": 11,
+  "users": 1000,
+  "stock": 100,
+  "workers": 200,
+  "accepted_orders": 0,
+  "request_errors": 0,
+  "elapsed_seconds": 1.458,
+  "qps": 686.08,
+  "latency_ms": {
+    "p50": 84.85,
+    "p95": 172.0,
+    "p99": 214.93,
+    "max": 279.29
+  },
+  "order_ids": []
+}

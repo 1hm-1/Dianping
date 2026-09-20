@@ -39,11 +39,16 @@ replay_pid*.log
 
 ### 本地二进制发行版（体积大，不入库） ###
 downloads/
-frontend/nginx-*
+# nginx 发行版只保留前端静态页面 html/，其余（可执行文件、日志、文档等）排除
+frontend/nginx-*/conf/
+frontend/nginx-*/contrib/
+frontend/nginx-*/docs/
+frontend/nginx-*/logs/
+frontend/nginx-*/temp/
+frontend/nginx-*/nginx.exe
 
 ### 日志 ###
 *.log
 
 ### Python 基准测试产物 ###
 __pycache__/
-bench/results/
